@@ -25,11 +25,18 @@ class MainActivity:AppCompatActivity() {
             /*To get text from edit text -->input and convert edit text to String*/
 
             val message:String = etWriteMessage.text.toString()
-            Toast.makeText(this,message,Toast.LENGTH_SHORT).show()
 
-            /*Shift from one activity to another activity.*/
-            val intent = Intent(this,SecondActivity::class.java)
-            startActivity(intent)
+            /*Transition from one activity to another activity.*/
+            val i = Intent(this,SecondActivity::class.java)
+
+            /*Intent has 2 types. i)Explicit : share information to known activiry
+            * ii)Implicit: share information to unknown activity*/
+
+            /*Use of Explicit Intent:
+            * use putExtra(key_name,value) method to send information to
+            * intent object*/
+            i.putExtra("user_msg",message)
+            startActivity(i)
         }
     }
 
