@@ -12,5 +12,5 @@
         android:textColor="#0D39EC"
         android:layout_margin="16dp"
         android:textStyle="bold"
-        android:text="TextView" />
+        android:text="@string/textview" />
 </LinearLayout>

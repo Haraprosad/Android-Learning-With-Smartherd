@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".activities.MainActivity">
 
 
     <Button
@@ -18,14 +18,16 @@
         android:text="@string/show_toast" />
 
     <EditText
-        android:layout_marginBottom="16dp"
         android:id="@+id/etWriteMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="55dp"
+        android:layout_marginBottom="16dp"
         android:ems="10"
-        android:hint="Write your Message"
-        android:textAlignment="center" />
+        android:hint="@string/write_your_message"
+        android:textAlignment="center"
+        android:importantForAutofill="no"
+        android:inputType="text" />
 
     <Button
         android:id="@+id/btnSendMTAA"
@@ -33,13 +35,20 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
 
-        android:text="Send Message to another activity" />
+        android:text="@string/send_message_to_another_activity" />
 
     <Button
         android:id="@+id/btnShareMsgToAnotherApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Share Message To another App" />
+        android:text="@string/share_message_to_another_app" />
+
+    <Button
+        android:id="@+id/btnRecyclerViewDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/recycler_view_demo" />
 
 
 </LinearLayout>
