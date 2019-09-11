@@ -8,4 +8,35 @@
     <string name="textview">TextView</string>
     <string name="hello">Hello</string>
     <string name="sorry_for_interruption">Sorry for interruption</string>
+
+    <string name="recycler_toast">"RecyclerView Demo Starts."</string>
+    <string name="toast_button_click">"Toast button is clicked."</string>
+
+
+    <string-array name="hobbies_list">
+        <item>Swimming</item>
+        <item>Programming</item>
+        <item>Piping Flute</item>
+        <item>Gardening</item>
+        <item>Walking</item>
+        <item>Dancing</item>
+        <item>Swimming</item>
+        <item>Programming</item>
+        <item>Piping Flute</item>
+        <item>Gardening</item>
+        <item>Walking</item>
+        <item>Dancing</item>
+        <item>Swimming</item>
+        <item>Programming</item>
+        <item>Piping Flute</item>
+        <item>Gardening</item>
+        <item>Walking</item>
+        <item>Dancing</item>
+        <item>Swimming</item>
+        <item>Programming</item>
+        <item>Piping Flute</item>
+        <item>Gardening</item>
+        <item>Walking</item>
+        <item>Dancing</item>
+    </string-array>
 </resources>

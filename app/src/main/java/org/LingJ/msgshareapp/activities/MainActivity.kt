@@ -24,11 +24,11 @@ class MainActivity : AppCompatActivity() {
 
             /*To show log information Log.i is used*/
 
-            Log.i(TAG, "Toast Button Clicked.")
+            Log.i(TAG, resources.getString(R.string.toast_button_click))
 
             /*we can create repeated method in extension file and
             * can use it as simplified form :*/
-            showToast("Toast button is clicked.")
+            showToast(resources.getString(R.string.toast_button_click))
         }
 
         btnSendMTAA.setOnClickListener {
@@ -75,8 +75,9 @@ class MainActivity : AppCompatActivity() {
             /****************************************************/
         }
         btnRecyclerViewDemo.setOnClickListener {
-            /*Use extension method by changing default params*/
-            showToast("RecyclerView Demo Starts.",Toast.LENGTH_LONG)
+            /*Use extension method by changing default params and use String
+            * localization*/
+            showToast(resources.getString(R.string.recycler_toast),Toast.LENGTH_LONG)
             val i = Intent(this, HobbiesActivity::class.java)
             startActivity(i)
         }

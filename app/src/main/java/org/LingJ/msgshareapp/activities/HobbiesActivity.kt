@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_hobbies.*
 import org.LingJ.msgshareapp.adapters.HobbiesAdapter
 import org.LingJ.msgshareapp.R
-import org.LingJ.msgshareapp.models.supplier
 
 class HobbiesActivity:AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,8 +24,10 @@ class HobbiesActivity:AppCompatActivity(){
 
         /* pass value to custom adapter and store that value in a
         variable and link that with recyclerview*/
+        /*Get Hobbies value from String Array.*/
+
         val adapter =
-            HobbiesAdapter(this, supplier.hobbies)
+            HobbiesAdapter(this, resources.getStringArray(R.array.hobbies_list))
         recyclerview.adapter = adapter
     }
 }

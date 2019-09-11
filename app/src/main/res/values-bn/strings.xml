@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MsgShareApp</string>
+    <string name="show_toast">টোস্ট দেখান</string>
+    <string name="write_your_message">আপনার বার্তা লিখুন</string>
+    <string name="send_message_to_another_activity">অন্য ক্রিয়াকলাপে বার্তা প্রেরণ করুন</string>
+    <string name="share_message_to_another_app">অন্য অ্যাপটিতে বার্তা ভাগ করুন</string>
+    <string name="recycler_view_demo">পুনর্ব্যবহারকারী দেখুন ডেমো</string>
+    <string name="textview">TextView</string>
+    <string name="hello">Hello</string>
+    <string name="sorry_for_interruption">বাধার জন্য দুঃখিত</string>
+
+    <string name="recycler_toast">"রিসাইক্লারভিউ ডেমো শুরু হয়।"</string>
+    <string name="toast_button_click">"টোস্ট বাটন ক্লিক করা হয়।"</string>
+</resources>
